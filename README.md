@@ -7,19 +7,20 @@
   
   
    ##### 2. Benchmarks
-   1-Cost of provisioning multiple enclaves simultaneously
-   2-Cost of entering and exiting from enclave (i.e. cost of copying data into enclave)
-   3-Cost of running task inside enclave
+   1-Cost of provisioning multiple enclaves simultaneously <br />
+   2-Cost of entering and exiting from enclave (i.e. cost of copying data into enclave) <br />
+   3-Cost of running task inside enclave <br />
    
    ##### 3. Notes
    - Tested on Linux
-   - Heapsize of enclave should be enough to hold the data. You can configure heapsize by modifying values of <HeapMaxSize> inside ./Enclave/Enclave.config.xml file. By default it is set to 128MB. 
+   - Heapsize of enclave should be enough to hold the data. You can configure heapsize by modifying values of HeapMaxSize inside ./Enclave/Enclave.config.xml file. By default it is set to 128MB. 
    
    
    ##### 4. Running
-    ```sh
+```sh
 $ make
 $ ./app
+
 ```
     
 
