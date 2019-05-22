@@ -18,6 +18,8 @@
    
    ##### 4. Running
     ```sh
-   $ make
-   $ ./app
-   ```
+$ make
+$ ./app
+```
+    
+
